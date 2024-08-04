@@ -1,4 +1,4 @@
-import img from '../assets/react.png'
+// import img from '../assets/react.png'
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -13,8 +13,9 @@ import FormGroup from '@mui/material/FormGroup';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
 import { Link ,useNavigate} from 'react-router-dom';
-import { Container } from 'react-bootstrap';
-import css from './Dashboard.module.css'
+import MediaCard from '../SecComponent/Card/Card';
+// import { Container } from 'react-bootstrap';
+// import css from './Dashboard.module.css'
 export default function Dashboard() {
   const [auth, setAuth] = React.useState(false);
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -111,10 +112,11 @@ export default function Dashboard() {
             </div>
           )}
         </Toolbar>
-      </AppBar>
-      <Container className={css.img}>
+      </AppBar><br /><br />
+      <MediaCard/>
+      {/* <Container className={css.img}>
     <img src={img}  alt="" />
-      </Container>
+      </Container> */}
     </Box>
   );
 }
