@@ -40,7 +40,8 @@ const navigate = useNavigate()
                       bottom:'10px',
                       fontSize:'20px',
                       fontWeight:'bolder',
-                      right:'20px'
+                      right:'20px',
+                      borderRadius:'5px'
                     }} onClick={()=>navigate('/dashboard')}>Back</Button>
                   </CardActions>
                 </Card>
