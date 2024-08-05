@@ -28,7 +28,7 @@ const navigate = useNavigate()
                     <Typography variant="body1" color="text.secondary">
                     {product.description}
                     </Typography>
-                  </CardContent><br /><br /><br /><br /><br /><br /><br/>
+                  </CardContent><br /><hr /><br /><br /><br /><br/>
                   <CardActions>
                     <Button size="small" variant="h4" style={{
                       width:'90%',
