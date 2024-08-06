@@ -15,7 +15,7 @@ export default function MediaCard() {
             console.log(e.image)
             return(
                 <div style={{display:'inline-block'}} key={i}>
-                <Card className={css.main} sx={{ maxWidth: 345 ,height:480,borderRadius:'10px',margin:'10px'}}>
+                <Card className={css.main} sx={{ maxWidth: 345 ,position:'relative',transition:'all 1s ease',boxShadow: "none",height:480,borderRadius:'20px',margin:'10px'}}>
                   <CardMedia
                     sx={{ height: 230 }}
                     image={e.image}
