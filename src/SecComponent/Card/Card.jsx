@@ -30,7 +30,7 @@ export default function MediaCard() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" variant="h1" style={{
+                    <Button size="small" variant="h1"  style={{
                       width:'90%',
                       margin:'auto',
                       border:'1px solid red',
